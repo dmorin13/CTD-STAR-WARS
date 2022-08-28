@@ -1,0 +1,138 @@
+body {
+  background-image: url(img/Death-Star.jpeg)
+}
+
+header {
+  text-align: center;
+  color: rgb(58, 121, 7);
+}
+
+.about {
+  color: white;
+}
+
+.about_img {
+  width: 400px;
+  height: 200px
+}
+
+.film-date,
+.filmTitle {
+  margin-right: 10px;
+}
+
+
+.char-image {
+  width: 200px;
+  height: 250px;
+}
+
+.film_image {
+  width: 400px;
+  height: 500px;
+}
+
+.charName,
+.hair-color,
+.gender,
+.film-date,
+.episode,
+.filmTitle {
+  color: rgb(232, 239, 113);
+
+}
+
+.font {
+  color: white;
+  font-size: large;
+}
+
+a {
+  margin-right: 10px;
+  color: white;
+}
+
+.block {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.stars {
+  color: blue;
+  font-size: large;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(33, 49, 216);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(15, 199, 107);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(15, 199, 107);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(222, 222, 27);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(15, 199, 107);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(213, 22, 22);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
